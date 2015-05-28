@@ -1,0 +1,11 @@
+<div class="pull-right">
+	<h5>Logged in as {{display_name}} <img class="media-object" width="45" src="{{pics.0.url}}" /> </h5>
+</div>
+<p>This is the partial for view 1.</p>
+
+<div id='playlists'>
+	<h2>Select a Playlist:</h2>
+	<div ng-repeat="playlist in playlists">
+		<button>{{playlist.name}}</button>
+	</div>
+</div>
